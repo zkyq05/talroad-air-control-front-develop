@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>放大</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="大气放大--圆形" transform="translate(-40.000000, -110.000000)">
+            <g id="放大" transform="translate(40.000000, 110.000000)">
+                <circle id="椭圆形" fill="#324258" cx="16" cy="16" r="16"></circle>
+                <g id="编组-2" transform="translate(11.000000, 11.000000)" fill="#93AECE">
+                    <rect id="矩形" x="4.65384615" y="0" width="1.69230769" height="10"></rect>
+                    <polygon id="矩形" transform="translate(5.500000, 5.000000) rotate(-90.000000) translate(-5.500000, -5.000000) " points="4.7 -0.288461538 6.3 -0.288461538 6.3 10.2884615 4.7 10.2884615"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>编组 37</title>
+    <desc>Created with Sketch.</desc>
+    <g id="风" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1920-dashboard-弹窗-1" transform="translate(-39.000000, -109.000000)" fill="#8493A8">
+            <g id="编组-37" transform="translate(39.500000, 109.500000)">
+                <path d="M16.5,0 C25.6126984,0 33,7.38730163 33,16.5 C33,25.6126984 25.6126984,33 16.5,33 C7.38730163,33 0,25.6126984 0,16.5 C0,7.38730163 7.38730163,0 16.5,0 Z M16.5,1 C7.93958638,1 1,7.93958638 1,16.5 C1,25.0604136 7.93958638,32 16.5,32 C25.0604136,32 32,25.0604136 32,16.5 C32,7.93958638 25.0604136,1 16.5,1 Z" id="椭圆形" fill-rule="nonzero" opacity="0.449999988"></path>
+                <g id="编组-2" transform="translate(11.500000, 11.500000)">
+                    <rect id="矩形" x="4.65384615" y="0" width="1.69230769" height="10"></rect>
+                    <polygon id="矩形" transform="translate(5.500000, 5.000000) rotate(-90.000000) translate(-5.500000, -5.000000) " points="4.7 -0.288461538 6.3 -0.288461538 6.3 10.2884615 4.7 10.2884615"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

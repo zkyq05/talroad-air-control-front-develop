@@ -1,0 +1,14 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/*
+*.iml
+target
+logs
+.classpath
+.factorypath
+.gitignore.bak
+.project
+.settings/
+dump.rdb
+node_modules/*
+package-lock.json
+dist/*

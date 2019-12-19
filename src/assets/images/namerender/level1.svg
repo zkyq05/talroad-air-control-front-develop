@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>形状结合</title>
+    <desc>Created with Sketch.</desc>
+    <g id="风" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1920-dashboard-修改图标尺寸备份" transform="translate(-734.000000, -801.000000)" fill="#1E3F5B">
+            <g id="编组-28备份-4" transform="translate(734.000000, 801.000000)">
+                <path d="M24,0 L24,24 L2,24 C0.8954305,24 1.3527075e-16,23.1045695 0,22 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 L24,0 Z M11.660254,5 L4,18.2679491 L19.320508,18.2679491 L11.660254,5 Z" id="形状结合"></path>
+            </g>
+        </g>
+    </g>
+</svg>

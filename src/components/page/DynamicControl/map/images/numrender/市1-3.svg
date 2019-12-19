@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="24px" viewBox="0 0 60 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>市1-3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="风" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-151.000000, -123.000000)">
+            <g id="市1-3" transform="translate(151.000000, 123.000000)">
+                <rect id="矩形备份-43" stroke="#F8C900" x="0.5" y="0.5" width="59" height="23" rx="1.6"></rect>
+                <path d="M1.6,0 L24,0 L24,0 L24,24 L1.6,24 C0.7163444,24 3.40259382e-15,23.2836556 0,22.4 L0,1.6 C1.13828005e-16,0.7163444 0.7163444,-2.8176431e-16 1.6,0 Z" id="形状结合备份-2" fill="#F8C900"></path>
+                <polygon id="形状结合备份-4" fill="#FFFFFF" points="5 8.41471873 12.3342953 4 19 8.41471873 19 19.75 5 19.75"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

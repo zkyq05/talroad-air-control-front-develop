@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/*左侧树菜单*/ 
+$sidebar-width: 290px;//左侧宽度
+$sidebar-bg: #192132;//背景色
+$sidebar-bg-header: $color-primary;//标题背景色
+$sidebar-color: #888c94;//文字颜色
+$sidebar-item-header-height: 16px;//单行高度
+$sidebar-item-height: 50px;//单行高度
+$sidebar-child-hei:40px;
+$sidebar-item-line-height: 20px;//单行行高
+$sidebar-item-padding-left: 40px;//左留白
+$sidebar-item-padding-right: 15px;//左留白
+$sidebar-item-padding-vertical: ($sidebar-item-height - $sidebar-item-line-height)/2;//垂直方向留白
+$sidebar-item-bg-active: #3883F1;//选中背景色
+$sidebarmini-hei:40px;
+.sidebar{
+  width: $sidebar-width;
+  background: $sidebar-bg;
+  position: absolute;
+  top: $headHei;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+}
+.sidebar-menu{
+  color: $sidebar-color;
+  >.menu-item{
+    &.active{
+      a{
+        background-color: $sidebar-bg;        
+        background-image: linear-gradient(90deg, #20485A 0%, rgba(32,72,90,0.55) 100%);
+        color: #fff;
+        border-left-color: #1DCEBC;
+      }
+    }
+    >a{
+      color: $sidebar-color; 
+      border-left: 4px solid transparent;
+      font-size: $size-lg;
+    }
+  }
+  a{
+    transition: .2s opacity;
+    color: $sidebar-color;
+    display: block;
+    height: $sidebar-item-height;
+    line-height: $sidebar-item-line-height;
+    padding: $sidebar-item-padding-vertical $sidebar-item-padding-right $sidebar-item-padding-vertical $sidebar-item-padding-left;
+    position: relative;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    transition: .3s linear background,.3s linear border-color;
+    .menu-icon{
+      float: left;
+      width: 16px;
+      margin-right: 10px;
+      text-align: center;
+      height: $sidebar-item-line-height;
+      line-height: $sidebar-item-line-height;
+      margin-right: $num;
+    }
+    .menu-toggle{
+      position: absolute;
+      width: 14px;
+      height: 14px;
+      line-height: 14px;
+      text-align: center;
+      right: 8px;
+      top: ($sidebar-item-height - 30)/2;
+      transition: .3s linear transform;
+      cursor: pointer;
+    }
+    &:hover{
+      color: $color-hover;
+    }
+  }
+  //标签
+  // .menu-label{
+  //   position: absolute;
+  //   right: 10px;
+  //   top: ($sidebar-item-height - 16)/2;
+  //   height: 16px;
+  //   line-height: 16px;
+  //   padding: 0 5px;
+  //   min-width: 16px;
+  //   color: #fff;
+  //   background: $color-primary;
+  //   border-radius: 2px;
+  //   font-size: $size-sm;
+  //   text-align: center;
+  //   white-space: nowrap;
+  // }
+  //展开状态下箭头
+  // >.is-open{
+  //   .is-open{
+  //     >a>.menu-icon{
+  //       transform: rotate(90deg);
+  //     }
+  //   }
+  // }
+  >.open{
+    >.menu-child{
+      display: block;
+      background: #151E2E;
+    }
+    >a{
+      background-color: $sidebar-bg;        
+      background-image: none;
+      border-left-color: transparent;
+    }
+  }
+  >.is-open{
+    >.menu-child{
+      display: block;
+      background: #151E2E;
+    }
+    >a{
+      background-color: $sidebar-bg;        
+      background-image: linear-gradient(90deg, #20485A 0%, rgba(32,72,90,0.55) 100%);
+      color: #fff;
+      border-left-color: #1DCEBC;
+    }
+    >.menu-child{
+      .active{
+        >a{
+          //background-color: transparent;
+          opacity: 1;
+          color: $color-hover;
+        }        
+      }
+      .is-open{
+        >a{
+          background-color: transparent;
+          color: #fff;
+        }
+      }
+    }
+  }
+  //子菜单
+  .menu-child{
+    display: none;
+    transition: .3s background;
+    //background: #151A22;
+  }
+  //二级菜单
+  >li>.menu-child>li{
+    &+li{
+      a{
+        border-top:1px solid #212938;
+      }
+    }
+    a{
+      padding:#{($sidebar-child-hei - $sidebar-item-line-height)/2} 0 5px $sidebar-item-padding-left + 30;
+      height: $sidebar-child-hei;
+    }
+    //新加
+    &:hover{
+
+    };
+  }
+  //三级菜单
+  >li>.menu-child>li>.menu-child>li>a{
+    padding-left: $sidebar-item-padding-left + 26;
+    .menu-icon{
+      margin-right: 0px;
+    }
+  }
+  //四级菜单
+  >li>.menu-child>li>.menu-child>li>.menu-child>li>a{
+    padding-left: $sidebar-item-padding-left + 30;
+  }
+  //选中状态
+  .active{
+    >a{
+      color: $color-hover;
+    }
+  }
+  // .active{
+  //   >a{
+  //     color: #fff;
+  //     background: $sidebar-item-bg-active;
+  //     border-left-color: $color-primary;
+  //   }
+  // }
+}
+.sidebar-head{
+  height: 72px;
+  color: $sidebar-color;
+  line-height: 72px;
+  padding-left: $sidebar-item-padding-left;
+  @include ellipsis;
+  font-size: 24px;
+}

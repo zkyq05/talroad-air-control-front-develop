@@ -1,0 +1,415 @@
+{
+  "id": "1505923",
+  "name": "大气监控",
+  "font_family": "icon",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1503664",
+      "name": "位置",
+      "font_class": "weizhi",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "2252948",
+      "name": "错误、关闭、取消",
+      "font_class": "close",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "3427847",
+      "name": "减少",
+      "font_class": "jian",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "5327376",
+      "name": "播放",
+      "font_class": "bofang",
+      "unicode": "e6ce",
+      "unicode_decimal": 59086
+    },
+    {
+      "icon_id": "10268548",
+      "name": "驾车",
+      "font_class": "car",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "11714643",
+      "name": "饼图",
+      "font_class": "bingtu",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "11744603",
+      "name": "达标",
+      "font_class": "dabiao",
+      "unicode": "e9a8",
+      "unicode_decimal": 59816
+    },
+    {
+      "icon_id": "11744652",
+      "name": "加",
+      "font_class": "jia",
+      "unicode": "e9a9",
+      "unicode_decimal": 59817
+    },
+    {
+      "icon_id": "11744666",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e9aa",
+      "unicode_decimal": 59818
+    },
+    {
+      "icon_id": "11744667",
+      "name": "全屏",
+      "font_class": "quanping",
+      "unicode": "e9ab",
+      "unicode_decimal": 59819
+    },
+    {
+      "icon_id": "11744756",
+      "name": "气泡",
+      "font_class": "qipao",
+      "unicode": "e9ac",
+      "unicode_decimal": 59820
+    },
+    {
+      "icon_id": "11744775",
+      "name": "上",
+      "font_class": "shang",
+      "unicode": "e9ad",
+      "unicode_decimal": 59821
+    },
+    {
+      "icon_id": "11744788",
+      "name": "下",
+      "font_class": "xia",
+      "unicode": "e9ae",
+      "unicode_decimal": 59822
+    },
+    {
+      "icon_id": "11745339",
+      "name": "国控",
+      "font_class": "guokong",
+      "unicode": "e9af",
+      "unicode_decimal": 59823
+    },
+    {
+      "icon_id": "11764108",
+      "name": "clock",
+      "font_class": "clock",
+      "unicode": "e9b1",
+      "unicode_decimal": 59825
+    },
+    {
+      "icon_id": "11769019",
+      "name": "多边形",
+      "font_class": "duobianxing",
+      "unicode": "e9b2",
+      "unicode_decimal": 59826
+    },
+    {
+      "icon_id": "11769020",
+      "name": "椭圆",
+      "font_class": "tuoyuan",
+      "unicode": "e9b3",
+      "unicode_decimal": 59827
+    },
+    {
+      "icon_id": "11769021",
+      "name": "星",
+      "font_class": "xing",
+      "unicode": "e9b4",
+      "unicode_decimal": 59828
+    },
+    {
+      "icon_id": "11769022",
+      "name": "三角",
+      "font_class": "sanjiao",
+      "unicode": "e9b5",
+      "unicode_decimal": 59829
+    },
+    {
+      "icon_id": "11769050",
+      "name": "污染",
+      "font_class": "wuran",
+      "unicode": "e9b6",
+      "unicode_decimal": 59830
+    },
+    {
+      "icon_id": "11769159",
+      "name": "市控",
+      "font_class": "shikong",
+      "unicode": "e9b8",
+      "unicode_decimal": 59832
+    },
+    {
+      "icon_id": "11769160",
+      "name": "微型",
+      "font_class": "weixing",
+      "unicode": "e9b9",
+      "unicode_decimal": 59833
+    },
+    {
+      "icon_id": "11769161",
+      "name": "扬尘",
+      "font_class": "yangchen",
+      "unicode": "e9ba",
+      "unicode_decimal": 59834
+    },
+    {
+      "icon_id": "11769399",
+      "name": "up",
+      "font_class": "up",
+      "unicode": "e9bc",
+      "unicode_decimal": 59836
+    },
+    {
+      "icon_id": "11769400",
+      "name": "down",
+      "font_class": "down",
+      "unicode": "e9bd",
+      "unicode_decimal": 59837
+    },
+    {
+      "icon_id": "11807870",
+      "name": "省控",
+      "font_class": "shengkong",
+      "unicode": "e9be",
+      "unicode_decimal": 59838
+    },
+    {
+      "icon_id": "11807874",
+      "name": "污染",
+      "font_class": "wuran1",
+      "unicode": "e9bf",
+      "unicode_decimal": 59839
+    },
+    {
+      "icon_id": "11823604",
+      "name": "统计分析",
+      "font_class": "tongjifenxi",
+      "unicode": "e9c0",
+      "unicode_decimal": 59840
+    },
+    {
+      "icon_id": "11823605",
+      "name": "报表",
+      "font_class": "baobiao",
+      "unicode": "e9c1",
+      "unicode_decimal": 59841
+    },
+    {
+      "icon_id": "11823607",
+      "name": "分析报告",
+      "font_class": "fenxibaogao",
+      "unicode": "e9c2",
+      "unicode_decimal": 59842
+    },
+    {
+      "icon_id": "11824063",
+      "name": "表格",
+      "font_class": "biaoge",
+      "unicode": "e9c3",
+      "unicode_decimal": 59843
+    },
+    {
+      "icon_id": "11824064",
+      "name": "折线图",
+      "font_class": "zhexiantu",
+      "unicode": "e9c4",
+      "unicode_decimal": 59844
+    },
+    {
+      "icon_id": "11846227",
+      "name": "应急预案",
+      "font_class": "yingjiyuan",
+      "unicode": "e9c5",
+      "unicode_decimal": 59845
+    },
+    {
+      "icon_id": "11846228",
+      "name": "清单",
+      "font_class": "qingdan",
+      "unicode": "e9c6",
+      "unicode_decimal": 59846
+    },
+    {
+      "icon_id": "11846229",
+      "name": "发布",
+      "font_class": "fabu",
+      "unicode": "e9c7",
+      "unicode_decimal": 59847
+    },
+    {
+      "icon_id": "11846234",
+      "name": "源档",
+      "font_class": "yuandang",
+      "unicode": "e9c8",
+      "unicode_decimal": 59848
+    },
+    {
+      "icon_id": "11846235",
+      "name": "分布",
+      "font_class": "fenbu",
+      "unicode": "e9c9",
+      "unicode_decimal": 59849
+    },
+    {
+      "icon_id": "11848361",
+      "name": "left",
+      "font_class": "left",
+      "unicode": "e9ca",
+      "unicode_decimal": 59850
+    },
+    {
+      "icon_id": "11848362",
+      "name": "right",
+      "font_class": "right",
+      "unicode": "e9cb",
+      "unicode_decimal": 59851
+    },
+    {
+      "icon_id": "11848521",
+      "name": "湿度",
+      "font_class": "shidu",
+      "unicode": "e9cc",
+      "unicode_decimal": 59852
+    },
+    {
+      "icon_id": "11848679",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e9cd",
+      "unicode_decimal": 59853
+    },
+    {
+      "icon_id": "11854172",
+      "name": "目标",
+      "font_class": "mubiao",
+      "unicode": "e9ce",
+      "unicode_decimal": 59854
+    },
+    {
+      "icon_id": "11854224",
+      "name": "日历",
+      "font_class": "rili",
+      "unicode": "e9cf",
+      "unicode_decimal": 59855
+    },
+    {
+      "icon_id": "11854233",
+      "name": "设定",
+      "font_class": "sheding",
+      "unicode": "e9d0",
+      "unicode_decimal": 59856
+    },
+    {
+      "icon_id": "11854355",
+      "name": "措施",
+      "font_class": "cuoshi",
+      "unicode": "e9d1",
+      "unicode_decimal": 59857
+    },
+    {
+      "icon_id": "11854356",
+      "name": "执行",
+      "font_class": "zhihang",
+      "unicode": "e9d2",
+      "unicode_decimal": 59858
+    },
+    {
+      "icon_id": "11854370",
+      "name": "警告",
+      "font_class": "jinggao",
+      "unicode": "e9d3",
+      "unicode_decimal": 59859
+    },
+    {
+      "icon_id": "11868742",
+      "name": "编辑",
+      "font_class": "bianji",
+      "unicode": "e9d4",
+      "unicode_decimal": 59860
+    },
+    {
+      "icon_id": "11868743",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e9d5",
+      "unicode_decimal": 59861
+    },
+    {
+      "icon_id": "11915061",
+      "name": "煤炭",
+      "font_class": "meitan",
+      "unicode": "e9de",
+      "unicode_decimal": 59870
+    },
+    {
+      "icon_id": "11915103",
+      "name": "铸造",
+      "font_class": "zhuzao",
+      "unicode": "e9e0",
+      "unicode_decimal": 59872
+    },
+    {
+      "icon_id": "11915769",
+      "name": "钢铁",
+      "font_class": "gangtie",
+      "unicode": "e9e2",
+      "unicode_decimal": 59874
+    },
+    {
+      "icon_id": "11916956",
+      "name": "工地",
+      "font_class": "gongdi",
+      "unicode": "e9e5",
+      "unicode_decimal": 59877
+    },
+    {
+      "icon_id": "11916967",
+      "name": "餐饮",
+      "font_class": "canyin",
+      "unicode": "e9e6",
+      "unicode_decimal": 59878
+    },
+    {
+      "icon_id": "12091609",
+      "name": "云图",
+      "font_class": "yuntu",
+      "unicode": "e9ec",
+      "unicode_decimal": 59884
+    },
+    {
+      "icon_id": "12091610",
+      "name": "卫星",
+      "font_class": "weixing1",
+      "unicode": "e9ed",
+      "unicode_decimal": 59885
+    },
+    {
+      "icon_id": "12091612",
+      "name": "风场",
+      "font_class": "fengchang",
+      "unicode": "e9ee",
+      "unicode_decimal": 59886
+    },
+    {
+      "icon_id": "12091613",
+      "name": "雷达",
+      "font_class": "leida",
+      "unicode": "e9ef",
+      "unicode_decimal": 59887
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+@charset "UTF-8";
+// input
+.u-input{
+  height: $height-form;
+  line-height: $line-height-form;
+  border: 1px solid $color-border;
+  padding: $padding-base-vertical $padding-base-horizontal;
+  color: #fff;
+  background-color: $bg-input;
+  outline: none;
+  font-size: $size;
+  border-radius: $radius-form;
+  vertical-align: middle;
+  box-sizing: border-box;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  &:focus,.is-active{
+    border-color: $color-primary;
+    box-shadow: 0 0 6px rgba($color-primary,.4);
+  }
+  &.input-sm{
+    height: $height-form-sm;
+    font-size: $size-sm;
+    padding: $padding-base-vertical-sm $padding-base-horizontal;
+    border-radius: $radius-form-sm;
+  }
+  &.input-lg{
+    height: $height-form-lg;
+    padding: $padding-base-vertical-lg $padding-base-horizontal;
+    border-radius: $radius-form-lg;
+  }
+  &.input-circle{
+    border-radius: $height-form/2;
+  }
+  &.input-circle.input-sm{
+    border-radius: $height-form-sm/2;
+  }
+  &.input-circle.input-lg{
+    border-radius: $height-form-lg/2;
+  }
+  &.is-disabled{
+    background: $bg;
+  }
+}
+
+//input外框
+.input-wrap{
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  .icon{
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    text-align: center;
+    width: $height-form - 4;
+    line-height: $height-form;
+    margin-top: - $height-form/2;
+    cursor: pointer;
+    color: #fff;
+  }
+  .u-input{
+    display: block;
+    width: 100%;
+  }
+  //添加前置图标
+  &.input-wrap-prefix{
+    .icon{
+      left: 0;
+    }
+    .u-input{
+      padding-left: $height-form - 4;
+    }
+  }
+  // 添加后置图标
+  &.input-wrap-suffix{
+    .icon{
+      right: 0;
+    }
+    .u-input{
+      padding-right: $height-form - 4;
+    }
+  }
+}

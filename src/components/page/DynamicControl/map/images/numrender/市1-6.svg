@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="24px" viewBox="0 0 60 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>市1-6</title>
+    <desc>Created with Sketch.</desc>
+    <g id="风" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-349.000000, -123.000000)">
+            <g id="市1-6" transform="translate(349.000000, 123.000000)">
+                <path d="M58.4,0 C59.2836556,0 60,0.7163444 60,1.6 L60,22.4 C60,23.2836556 59.2836556,24 58.4,24 L1.6,24 C0.7163444,24 0,23.2836556 0,22.4 L0,1.6 C0,0.7163444 0.7163444,0 1.6,0 L58.4,0 Z M58.4,1 L1.6,1 C1.26862915,1 1,1.26862915 1,1.6 L1,22.4 C1,22.7313708 1.26862915,23 1.6,23 L58.4,23 C58.7313708,23 59,22.7313708 59,22.4 L59,1.6 C59,1.26862915 58.7313708,1 58.4,1 Z" id="矩形备份-43" fill="#8E1C10" fill-rule="nonzero"></path>
+                <path d="M1.6,0 L24,0 L24,0 L24,24 L1.6,24 C0.7163444,24 3.40259382e-15,23.2836556 0,22.4 L0,1.6 C1.13828005e-16,0.7163444 0.7163444,-2.8176431e-16 1.6,0 Z" id="形状结合备份-2" fill="#8E1C10"></path>
+                <polygon id="形状结合备份-4" fill="#FFFFFF" points="5 8.41471873 12.3342953 4 19 8.41471873 19 19.75 5 19.75"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

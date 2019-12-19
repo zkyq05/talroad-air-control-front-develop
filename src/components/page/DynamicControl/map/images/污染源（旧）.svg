@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>污染源</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="污染源">
+            <g id="编组-28备份-2复制" fill="#1E3F5B">
+                <rect id="形状结合" x="0" y="0" width="24" height="24" rx="2"></rect>
+            </g>
+            <g id="编组-51复制" transform="translate(5.000000, 5.000000)">
+                <circle id="椭圆形" stroke="#D7E9FF" cx="7" cy="7" r="7"></circle>
+                <circle id="椭圆形" stroke="#D7E9FF" cx="7" cy="7" r="4"></circle>
+                <circle id="椭圆形" fill="#D7E9FF" transform="translate(7.000000, 7.000000) scale(-1, 1) translate(-7.000000, -7.000000) " cx="7" cy="7" r="1"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

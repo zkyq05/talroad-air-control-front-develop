@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>餐饮1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="大气-圆形icon" transform="translate(-225.000000, -434.000000)">
+            <g id="餐饮1" transform="translate(225.000000, 434.000000)">
+                <circle id="椭圆形备份-2" stroke="#081E31" fill="#46C96F" cx="12" cy="12" r="11.5"></circle>
+                <path d="M19,13 L19,15 L5,15 L5,13 L19,13 Z M12,5 C12.5522847,5 13,5.44771525 13,6 C13,6.03094699 12.9985942,6.06156565 12.9958431,6.0917956 C15.6572715,6.57793398 17.722675,8.989265 18,12 L6,12 C6.27735958,8.98888927 8.3432457,6.57733214 11.005162,6.09002761 L11,6 C11,5.44771525 11.4477153,5 12,5 Z" id="形状结合" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

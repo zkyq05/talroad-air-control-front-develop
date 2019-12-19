@@ -1,0 +1,96 @@
+@charset "UTF-8";
+// 文字颜色
+$color: #fff; // 颜色-基准／默认
+
+$color-hover: #19FFC7; // 颜色-划入   //
+$color-primary: #4674BC; // 颜色-突出
+$color-secondary: #93AECE; // 颜色-突出-次要  //
+$color-third: #1DCEBC; // 颜色-突出-次要   //panel -icon
+$color-bright: #F8C900; // 颜色-突出-次要  //
+$color-brighter: #8699FF; // 颜色-突出-次要  //
+
+$color-other: #4E96FF; // table操作列
+
+$color-light: #B8BEC4; // 颜色-浅色  //
+$color-lighter: #848d96; // 颜色-浅色-高级  //
+$color-lightest: #d3d3d3; // 颜色-浅色-最高级
+
+$color-dark: #222; //颜色-深色
+$color-darker: #111; //颜色-深色-高级
+$color-darkest: #000; //颜色-深色-最高级
+
+$color-link: #3b99fc; //文字链接颜色
+$color-success: #5eb95e; // 颜色-成功
+$color-error: #FF3A3A; // 颜色-失败错误//
+$color-warning: #F19D38; // 颜色-警告 //
+$color-danger: #EA3522; // 颜色-危险 //
+$color-disabled: #eaeded; //颜色-禁用
+$color-price: #f10214; // 颜色-价格
+
+$color-level1: #46C96F; // 颜色-空气质量
+$color-level2: #F8C900; // 颜色-空气质量
+$color-level3: #F19D38; // 颜色-空气质量
+$color-level4: #EA3522; // 颜色-空气质量
+$color-level5: #8B2293; // 颜色-空气质量
+$color-level6: #8E1C10; // 颜色-空气质量
+
+// 边框颜色
+$color-border: #8493A8; // 边框色  
+$color-border-light: #364E69; // 边框-浅色  //
+$color-border-dark: #4BABF5; // 边框-深色  //
+$color-border-darker: #1c253b; // 边框-深色  //
+
+//背景色
+$bg: #324258; //背景色-默认   //
+$bg-light: #1A3451; // 背景色-浅色  //
+$bg-dark: #0e1f32; // 背景色-深色  //
+$bg-darker: #2A3552; // 背景色-深色  //
+
+// 字号
+$size: 14px; // 字号-默认
+$size-lg: 16px; // 字号-大号
+$size-mlg: 18px; // 字号-更大
+$size-blg: 20px; // 字号-最大
+$size-blger: 24px; // 字号-最大
+$size-sm: 12px; // 字体-小号
+$size-mid: 14px; // 字体-小号
+
+// 圆角
+$radius: 2px; // 圆角弧度-默认
+$radius-lg: 5px; // 圆角弧度-大
+$radius-sm: 3px; // 圆角弧度-小
+
+// 间距
+$num: 10px; // 间距
+$num-sm: 4px; // 小间距
+$num-lg: 20px; // 大间距
+$num-lger: 30px; // 大间距
+
+// 高度
+$height: 30px; //常用高度
+$line-height: 1.428571; //常用20
+
+
+//form变量 
+$height-form: 36px; //form高度
+$height-form-lg: 40px; //form按钮高度-大
+$height-form-sm: 30px; //form高度-小
+$line-height-form: 20px; //行高
+$radius-form: 3px; // form 圆角
+$radius-form-lg: 6px; // form 圆角-大
+$radius-form-sm: 2px; // form 圆角-小
+
+//按钮
+$bg-btn: #fff; //按钮背景色
+$padding-base-vertical: ($height-form - $line-height-form - 2)/2; //纵向留白-默认
+$padding-base-vertical-lg: ($height-form-lg - $line-height-form - 2)/2; //纵向留白-大
+$padding-base-vertical-sm: ($height-form-sm - $line-height-form - 2)/2; //纵向留白-小
+$padding-base-horizontal: 10px;//横向留白-默认
+$min-width-btn: 80px; //按钮最低宽度-默认
+$min-width-btn-sm: 60px; //按钮最低宽度-小
+
+//输入框
+$bg-input: transparent; //输入框背景
+
+
+$headHei:60px;
